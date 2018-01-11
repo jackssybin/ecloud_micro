@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ecloud_auth-service" />
+        <module name="ecloud_config" />
+        <module name="ecloud_gateway" />
+        <module name="ecloud_monitor" />
+        <module name="ecloud_registry" />
+        <module name="ecloud_zipkin" />
+        <module name="testa-service" />
+        <module name="testb-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.6">
+      <module name="ecloud_auth-service" target="1.8" />
+      <module name="ecloud_config" target="1.8" />
+      <module name="ecloud_gateway" target="1.8" />
+      <module name="ecloud_micro" target="1.8" />
+      <module name="ecloud_monitor" target="1.8" />
+      <module name="ecloud_registry" target="1.8" />
+      <module name="ecloud_zipkin" target="1.8" />
+      <module name="svca-service" target="1.5" />
+      <module name="svcb-service" target="1.5" />
+      <module name="testa-service" target="1.8" />
+      <module name="testb-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

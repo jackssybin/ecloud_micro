@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ecloud_auth-service/ecloud_auth-service.iml" filepath="$PROJECT_DIR$/ecloud_auth-service/ecloud_auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecloud_config/ecloud_config.iml" filepath="$PROJECT_DIR$/ecloud_config/ecloud_config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecloud_gateway/ecloud_gateway.iml" filepath="$PROJECT_DIR$/ecloud_gateway/ecloud_gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecloud_micro.iml" filepath="$PROJECT_DIR$/ecloud_micro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecloud_monitor/ecloud_monitor.iml" filepath="$PROJECT_DIR$/ecloud_monitor/ecloud_monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecloud_registry/ecloud_registry.iml" filepath="$PROJECT_DIR$/ecloud_registry/ecloud_registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecloud_zipkin/ecloud_zipkin.iml" filepath="$PROJECT_DIR$/ecloud_zipkin/ecloud_zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testa-service/testa-service.iml" filepath="$PROJECT_DIR$/testa-service/testa-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testb-service/testb-service.iml" filepath="$PROJECT_DIR$/testb-service/testb-service.iml" />
+    </modules>
+  </component>
+</project>

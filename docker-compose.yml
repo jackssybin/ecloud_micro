@@ -1,0 +1,35 @@
+version: '2'
+services:
+  rabbitmq:
+      image: rabbitmq:3-management
+      restart: always
+      ports:
+        - 15673:15672
+  registry:
+    image: ecloud_micro/registry
+    ports:
+      - "8761:8761"
+  config:
+    image: ecloud_micro/config
+    ports:
+      - "8888:8888"
+  monitor:
+    image: ecloud_micro/monitor
+    ports:
+      - "8040:8040"
+  zipkin:
+    image: ecloud_micro/zipkin
+    ports:
+      - "9411:9411"
+  gateway:
+    image: ecloud_micro/gateway
+    ports:
+      - "8060:8060"
+  auth-service:
+    image: ecloud_micro/auth-service
+    ports:
+      - "5000:5000"
+  testa-service:
+    image: ecloud_micro/testa-service
+  testb-service:
+    image: ecloud_micro/testb-service
